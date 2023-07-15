@@ -16,7 +16,8 @@ function App() {
     <HashRouter>
       <AnimatedRoutes
         chaptersCompleted={chaptersCompleted} 
-        addCompletedChapter={addCompletedChapter} />
+        addCompletedChapter={addCompletedChapter} 
+        currentChapter={0}/>
     </HashRouter>
   )
 }
