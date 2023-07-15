@@ -1,0 +1,13 @@
+.page {
+    > * { 
+        background-color: white;
+        z-index: 1;
+        position: relative;
+    }
+    .container-fluid:first-child,
+    .container:first-child {
+        padding-top: 10em;
+        z-index: 1;
+        position: relative;
+    }
+}
